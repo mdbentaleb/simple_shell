@@ -19,9 +19,6 @@ int ft_strlen(char *str)
 
 
 
-
-
-
 /**
  * ft_strcmp - compares two strings
  * @s1: first string
@@ -46,9 +43,6 @@ int ft_strcmp(char *s1, char *s2)
 
 
 
-
-
-
 /**
  * check_start_with - checks if str star with search
  * @search: string to search
@@ -65,9 +59,6 @@ char *check_start_with(const char *search, const char *str)
 	}
 	return ((char *)search);
 }
-
-
-
 
 
 
