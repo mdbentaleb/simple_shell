@@ -5,7 +5,6 @@
  * @str: string
  * Return: "int" length
  */
-
 int ft_strlen(char *str)
 {
 	int i = 0;
@@ -25,7 +24,6 @@ int ft_strlen(char *str)
  * @s2: second string
  * Return: "-1" if s1 < s2 or "1" if s1 > s2 or "0" if s1 == s2
  */
-
 int ft_strcmp(char *s1, char *s2)
 {
 	while (*s1 && *s2)
@@ -49,7 +47,6 @@ int ft_strcmp(char *s1, char *s2)
  * @str: string
  * Return: address of next char of search or NULL
  */
-
 char *check_start_with(const char *search, const char *str)
 {
 	while (*str)
@@ -68,7 +65,6 @@ char *check_start_with(const char *search, const char *str)
  * @src: the source buffer
  * Return: pointer to destination buffer
  */
-
 char *ft_strcat(char *dest, char *src)
 {
 	char *rtn = dest;
