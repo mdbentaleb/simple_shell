@@ -70,7 +70,7 @@ char *ft_strncat(char *dest, char *src, int n)
  */
 char *ft_strchar(char *str, char c)
 {
-	di {
+	do {
 		if (*str == c)
 			return (str);
 	} while (*str++ != '\0');
