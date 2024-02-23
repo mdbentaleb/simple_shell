@@ -39,3 +39,8 @@ int ft_putchar(char);
 char *ft_strncpy(char *dest, char *src, int n);
 char *ft_strncat(char *dest, char *src, int n);
 char *ft_strchar(char *str, char c);
+
+
+/* str_func4.c*/
+char **ft_strtow(char *str, char *d);
+char **ft_strtow2(char *, char);
