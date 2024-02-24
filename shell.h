@@ -44,3 +44,13 @@ char *ft_strchar(char *str, char c);
 /* str_func4.c*/
 char **ft_strtow(char *str, char *d);
 char **ft_strtow2(char *, char);
+
+
+/* mem_func1.c */
+char *ft_memset(char *s, char b, unsigned int n);
+void ft_memfree(char **str);
+void *ft_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
+
+/* mem_func2.c*/
+int ft_bfree(void **ptr);
