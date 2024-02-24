@@ -54,3 +54,10 @@ void *ft_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
 /* mem_func2.c*/
 int ft_bfree(void **ptr);
+
+
+/* more_func1.c*/
+int ft_interactive(info_t *info);
+int ft_isdelim(char c, char *delim);
+int ft_isalpha(int);
+int ft_atoi(char *str);
