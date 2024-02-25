@@ -21,6 +21,11 @@
 #define BUFF_FLUSH -1
 
 
+/* ft_convert_number() */
+#define CONVERT_LOWERCASE	1
+#define CONVERT_UNSIGNED	2
+
+
 /* string_func.c */
 int ft_strlen(char *);
 int ft_strcmp(char *, char *);
@@ -61,3 +66,11 @@ int ft_interactive(info_t *info);
 int ft_isdelim(char c, char *delim);
 int ft_isalpha(int);
 int ft_atoi(char *str);
+
+
+/* more_func2.c */
+int ft_erratoi(char *s);
+void ft_print_error(info_t *, char *);
+int ft_print_decimal(int, int);
+char *ft_convert_number(long int, int, int);
+void ft_remove_comments(char *);
