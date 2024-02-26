@@ -74,3 +74,19 @@ void ft_print_error(info_t *, char *);
 int ft_print_decimal(int, int);
 char *ft_convert_number(long int, int, int);
 void ft_remove_comments(char *);
+
+
+/* liststr.c module */
+list_t *ft_add_node(list_t **, const char *, int);
+list_t *ft_add_node_end(list_t **, const char *, int);
+size_t ft_print_list_str(const list_t *);
+int ft_delete_node_at_index(list_t **, unsigned int);
+void free_list(list_t **);
+
+
+/* liststr2.c module */
+size_t ft_list_len(const list_t *);
+char **ft_list_to_strings(list_t *);
+size_t ft_print_list(const list_t *);
+list_t *ft_node_starts_with(list_t *, char *, char);
+ssize_t ft_get_node_index(list_t *, list_t *);
