@@ -3,7 +3,6 @@
 
 
 
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -191,3 +190,9 @@ void ft_eputs(char *);
 int ft_eputchar(char);
 int ft_putfd(char c, int fd);
 int ft_putsfd(char *str, int fd);
+
+
+/* info.c module */
+void clear_info(info_t *);
+void set_info(info_t *, char **);
+void free_info(info_t *, int);
