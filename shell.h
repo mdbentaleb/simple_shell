@@ -90,3 +90,10 @@ char **ft_list_to_strings(list_t *);
 size_t ft_print_list(const list_t *);
 list_t *ft_node_starts_with(list_t *, char *, char);
 ssize_t ft_get_node_index(list_t *, list_t *);
+
+
+/* err_str_func.c */
+void ft_eputs(char *);
+int ft_eputchar(char);
+int ft_putfd(char c, int fd);
+int ft_putsfd(char *str, int fd);
