@@ -198,14 +198,22 @@ void set_info(info_t *, char **);
 void free_info(info_t *, int);
 
 
-/* env.c */
-char *_getenv(info_t *, const char *);
+/* env1.c */
+char *ft_getenv(info_t *, const char *);
 int ft_myenv(info_t *);
 int ft_mysetenv(info_t *);
 int ft_myunsetenv(info_t *);
-int populate_env_list(info_t *);
+int ft_populate_env_list(info_t *);
 
 /* env2.c */
 char **ft_get_environ(info_t *);
 int ft_unsetenv(info_t *, char *);
 int ft_setenv(info_t *, char *, char *);
+
+
+/* file_io_func.c */
+char *ft_get_history_file(info_t *info);
+int ft_write_history(info_t *info);
+int ft_read_history(info_t *info);
+int ft_build_history_list(info_t *info, char *buf, int linecount);
+int ft_renumber_history(info_t *info);

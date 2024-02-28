@@ -74,11 +74,11 @@ int ft_myunsetenv(info_t *info)
 
 
 /**
- * populate_env_list - populates env linked list
+ * ft_populate_env_list - populates env linked list
  * @info: Structure
  * Return: Always 0
  */
-int populate_env_list(info_t *info)
+int ft_populate_env_list(info_t *info)
 {
 	list_t *node = NULL;
 	size_t i;
