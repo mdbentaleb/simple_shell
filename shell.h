@@ -192,7 +192,20 @@ int ft_putfd(char c, int fd);
 int ft_putsfd(char *str, int fd);
 
 
-/* info.c module */
+/* info.c */
 void clear_info(info_t *);
 void set_info(info_t *, char **);
 void free_info(info_t *, int);
+
+
+/* env.c */
+char *_getenv(info_t *, const char *);
+int ft_myenv(info_t *);
+int ft_mysetenv(info_t *);
+int ft_myunsetenv(info_t *);
+int populate_env_list(info_t *);
+
+/* env2.c */
+char **ft_get_environ(info_t *);
+int ft_unsetenv(info_t *, char *);
+int ft_setenv(info_t *, char *, char *);
