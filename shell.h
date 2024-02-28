@@ -217,3 +217,13 @@ int ft_write_history(info_t *info);
 int ft_read_history(info_t *info);
 int ft_build_history_list(info_t *info, char *buf, int linecount);
 int ft_renumber_history(info_t *info);
+
+
+/* builtin_emulat1.c */
+int ft_myexit(info_t *);
+int ft_mycd(info_t *);
+int ft_myhelp(info_t *);
+
+/* builtin_emulat2.c */
+int ft_myhistory(info_t *);
+int ft_myalias(info_t *);
