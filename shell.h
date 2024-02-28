@@ -227,3 +227,9 @@ int ft_myhelp(info_t *);
 /* builtin_emulat2.c */
 int ft_myhistory(info_t *);
 int ft_myalias(info_t *);
+
+
+/* path.c */
+int ft_is_cmd(info_t *, char *);
+char *ft_dup_chars(char *, int, int);
+char *ft_find_path(info_t *, char *, char *);
