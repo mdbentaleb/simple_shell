@@ -233,3 +233,11 @@ int ft_myalias(info_t *);
 int ft_is_cmd(info_t *, char *);
 char *ft_dup_chars(char *, int, int);
 char *ft_find_path(info_t *, char *, char *);
+
+
+/* chain.c */
+int ft_is_chain(info_t *, char *, size_t *);
+void ft_check_chain(info_t *, char *, size_t *, size_t, size_t);
+int ft_replace_alias(info_t *);
+int ft_replace_vars(info_t *);
+int ft_replace_string(char **, char *);
