@@ -247,3 +247,14 @@ int ft_replace_string(char **, char *);
 ssize_t ft_get_input(info_t *);
 int ft_getline(info_t *, char **, size_t *);
 void ft_sigintHandler(int);
+
+
+/* hsh.c */
+int hsh(info_t *, char **);
+int find_builtin(info_t *);
+void find_cmd(info_t *);
+void fork_cmd(info_t *);
+
+
+/* loophsh.c */
+int loophsh(char **);
