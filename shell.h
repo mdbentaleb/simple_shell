@@ -241,3 +241,9 @@ void ft_check_chain(info_t *, char *, size_t *, size_t, size_t);
 int ft_replace_alias(info_t *);
 int ft_replace_vars(info_t *);
 int ft_replace_string(char **, char *);
+
+
+/* getline.c */
+ssize_t ft_get_input(info_t *);
+int ft_getline(info_t *, char **, size_t *);
+void ft_sigintHandler(int);
